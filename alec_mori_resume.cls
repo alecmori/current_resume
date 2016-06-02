@@ -9,8 +9,8 @@
 
 \definecolor{light}{HTML}{5b5b5b} % The primary document color for content text
 \definecolor{primary}{HTML}{383838} % The primary document color for content text
-\definecolor{headings}{HTML}{1b1b1b} % The color of the large sections
-\definecolor{subheadings}{HTML}{2b2b2b} % The color of subsections and places worked/studied
+\definecolor{category}{HTML}{1b1b1b} % The color of the large sections
+\definecolor{heading}{HTML}{2b2b2b} % The color of subsections and places worked/studied
 
 \usepackage{fontspec}
 
@@ -22,7 +22,7 @@
 \begin{center}
 \color{light}
 \fontspec[Path = Garamond/]{AGaramondPro-Regular}\fontsize{40pt}{14pt}\selectfont #1
-\color{headings}
+\color{heading}
 \fontspec[Path = Garamond/]{AGaramondPro-Regular}\fontsize{40pt}{14pt}\selectfont #2
 \end{center}
 \vspace{-16pt}
@@ -44,7 +44,7 @@
 \newcommand*{\category}[1]{
 \vspace{4pt}
 
-\color{headings}
+\color{category}
 \fontspec[Path = Garamond/]{AGaramondPro-Regular}\fontsize{16pt}{16pt}\selectfont
 \noindent \bf #1 \hfill
 
@@ -56,7 +56,7 @@
 
 \vspace{2pt}
 
-\color{subheadings}
+\color{heading}
 \fontspec[Path = Garamond/]{AGaramondPro-Regular}\fontsize{10pt}{10pt}\selectfont
 \noindent
 \begin{minipage}[t]{0.2\textwidth}
@@ -104,7 +104,7 @@
 \end{minipage}
 \noindent
 \begin{minipage}[t]{0.26\textwidth}
-\color{headings}
+\color{heading}
 \fontspec[Path = Garamond/]{AGaramondPro-Regular}\fontsize{16pt}{16pt}\selectfont
 \noindent
 Preferred
@@ -118,7 +118,7 @@ Preferred
 \end{minipage}
 \noindent
 \begin{minipage}[t]{0.26\textwidth}
-\color{headings}
+\color{heading}
 \fontspec[Path = Garamond/]{AGaramondPro-Regular}\fontsize{16pt}{16pt}\selectfont
 \noindent
 Proficient
@@ -132,7 +132,7 @@ Proficient
 \end{minipage}
 \noindent
 \begin{minipage}[t]{0.26\textwidth}
-\color{headings}
+\color{heading}
 \fontspec[Path = Garamond/]{AGaramondPro-Regular}\fontsize{16pt}{16pt}\selectfont
 \noindent
 Familiar
