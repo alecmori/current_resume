@@ -105,9 +105,9 @@
 \noindent
 \begin{minipage}[t]{0.26\textwidth}
 \color{heading}
-\fontspec[Path = Garamond/]{AGaramondPro-Regular}\fontsize{16pt}{16pt}\selectfont
+\fontspec[Path = Garamond/]{AGaramondPro-Regular}\fontsize{14pt}{14pt}\selectfont
 \noindent
-Preferred
+\bf Preferred
 
 \vspace{2pt}
 
@@ -119,9 +119,9 @@ Preferred
 \noindent
 \begin{minipage}[t]{0.26\textwidth}
 \color{heading}
-\fontspec[Path = Garamond/]{AGaramondPro-Regular}\fontsize{16pt}{16pt}\selectfont
+\fontspec[Path = Garamond/]{AGaramondPro-Regular}\fontsize{14pt}{14pt}\selectfont
 \noindent
-Proficient
+\bf Proficient
 
 \vspace{2pt}
 
@@ -133,9 +133,9 @@ Proficient
 \noindent
 \begin{minipage}[t]{0.26\textwidth}
 \color{heading}
-\fontspec[Path = Garamond/]{AGaramondPro-Regular}\fontsize{16pt}{16pt}\selectfont
+\fontspec[Path = Garamond/]{AGaramondPro-Regular}\fontsize{14pt}{14pt}\selectfont
 \noindent
-Familiar
+\bf Familiar
 
 \vspace{2pt}
 
