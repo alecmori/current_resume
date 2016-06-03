@@ -48,7 +48,7 @@
 \fontspec[Path = Garamond/]{AGaramondPro-Regular}\fontsize{16pt}{16pt}\selectfont
 \noindent \bf #1 \hfill
 
-\vspace{-2pt}
+\vspace{2pt}
 }
 
 % Subject %
