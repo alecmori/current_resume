@@ -107,7 +107,7 @@
 \color{heading}
 \fontspec[Path = Garamond/]{AGaramondPro-Regular}\fontsize{14pt}{14pt}\selectfont
 \noindent
-\bf Preferred
+\bf Languages
 
 \vspace{2pt}
 
@@ -121,7 +121,7 @@
 \color{heading}
 \fontspec[Path = Garamond/]{AGaramondPro-Regular}\fontsize{14pt}{14pt}\selectfont
 \noindent
-\bf Proficient
+\bf Systems
 
 \vspace{2pt}
 
@@ -135,7 +135,7 @@
 \color{heading}
 \fontspec[Path = Garamond/]{AGaramondPro-Regular}\fontsize{14pt}{14pt}\selectfont
 \noindent
-\bf Familiar
+\bf Libraries
 
 \vspace{2pt}
 
