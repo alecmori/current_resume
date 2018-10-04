@@ -59,7 +59,7 @@
 \color{heading}
 \fontspec[Path = Garamond/]{AGaramondPro-Regular}\fontsize{10pt}{10pt}\selectfont
 \noindent
-\begin{minipage}[t]{0.2\textwidth}
+\begin{minipage}[t]{0.17\textwidth}
 \noindent
 \hfill
 #1
@@ -69,7 +69,7 @@
 \begin{minipage}[t]{0.02\textwidth}
 \hfill
 \end{minipage}
-\begin{minipage}[t]{0.78\textwidth}
+\begin{minipage}[t]{0.81\textwidth}
 \noindent
 {\bf #2} | \fontspec[Path = Garamond/]{AGaramondPro-Regular}\fontsize{13pt}{13pt}\selectfont #3 \fontspec[Path = Garamond/]{AGaramondPro-Regular}\fontsize{12pt}{12pt}\selectfont \hfill #4
 \hfill
@@ -84,11 +84,11 @@
 \color{primary}
 \fontspec[Path = Garamond/]{AGaramondPro-Regular}\fontsize{12pt}{12pt}\selectfont
 \noindent
-\begin{minipage}[t]{0.22\textwidth}
+\begin{minipage}[t]{0.19\textwidth}
 \noindent
 \hfill
 \end{minipage}
-\begin{minipage}[t]{0.78\textwidth}
+\begin{minipage}[t]{0.81\textwidth}
 \noindent
 \textbullet \ #1 \hfill
 \end{minipage}
@@ -99,11 +99,11 @@
 \newcommand{\skillsection}[3]{
 \vspace{-8pt}
 \noindent
-\begin{minipage}[t]{0.22\textwidth}
+\begin{minipage}[t]{0.19\textwidth}
 \hfill
 \end{minipage}
 \noindent
-\begin{minipage}[t]{0.26\textwidth}
+\begin{minipage}[t]{0.27\textwidth}
 \color{heading}
 \fontspec[Path = Garamond/]{AGaramondPro-Regular}\fontsize{14pt}{14pt}\selectfont
 \noindent
@@ -117,7 +117,7 @@
 #1
 \end{minipage}
 \noindent
-\begin{minipage}[t]{0.26\textwidth}
+\begin{minipage}[t]{0.27\textwidth}
 \color{heading}
 \fontspec[Path = Garamond/]{AGaramondPro-Regular}\fontsize{14pt}{14pt}\selectfont
 \noindent
@@ -131,7 +131,7 @@
 #2
 \end{minipage}
 \noindent
-\begin{minipage}[t]{0.26\textwidth}
+\begin{minipage}[t]{0.27\textwidth}
 \color{heading}
 \fontspec[Path = Garamond/]{AGaramondPro-Regular}\fontsize{14pt}{14pt}\selectfont
 \noindent
