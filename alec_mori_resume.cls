@@ -59,17 +59,17 @@
 \color{heading}
 \fontspec[Path = Garamond/]{AGaramondPro-Regular}\fontsize{10pt}{10pt}\selectfont
 \noindent
-\begin{minipage}[t]{0.17\textwidth}
+\begin{minipage}[t]{0.16\textwidth}
 \noindent
 \hfill
 #1
 \end{minipage}
 \fontspec[Path = Garamond/]{AGaramondPro-Regular}\fontsize{14pt}{14pt}\selectfont
 \noindent
-\begin{minipage}[t]{0.02\textwidth}
+\begin{minipage}[t]{0.01\textwidth}
 \hfill
 \end{minipage}
-\begin{minipage}[t]{0.81\textwidth}
+\begin{minipage}[t]{0.83\textwidth}
 \noindent
 {\bf #2} | \fontspec[Path = Garamond/]{AGaramondPro-Regular}\fontsize{13pt}{13pt}\selectfont #3 \fontspec[Path = Garamond/]{AGaramondPro-Regular}\fontsize{12pt}{12pt}\selectfont \hfill #4
 \hfill
@@ -84,11 +84,11 @@
 \color{primary}
 \fontspec[Path = Garamond/]{AGaramondPro-Regular}\fontsize{12pt}{12pt}\selectfont
 \noindent
-\begin{minipage}[t]{0.19\textwidth}
+\begin{minipage}[t]{0.17\textwidth}
 \noindent
 \hfill
 \end{minipage}
-\begin{minipage}[t]{0.81\textwidth}
+\begin{minipage}[t]{0.83\textwidth}
 \noindent
 \textbullet \ #1 \hfill
 \end{minipage}
