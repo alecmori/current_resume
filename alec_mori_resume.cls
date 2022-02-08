@@ -78,6 +78,31 @@
 \vspace{2pt}
 }
 
+% Subheading %
+\newcommand{\subheading}[1]{
+
+\vspace{1pt}
+
+\color{light}
+\noindent
+\begin{minipage}[t]{0.16\textwidth}
+\noindent
+\hfill
+\end{minipage}
+\fontspec[Path = Garamond/]{AGaramondPro-Regular}\fontsize{12pt}{12pt}\selectfont
+\noindent
+\begin{minipage}[t]{0.01\textwidth}
+\hfill
+\end{minipage}
+\begin{minipage}[t]{0.83\textwidth}
+\noindent
+{\bf #1} 
+\hfill
+\end{minipage}
+
+\vspace{1pt}
+}
+
 % Bullet Point %
 
 \newcommand{\bulletpoint}[1]{
@@ -95,8 +120,8 @@
 \vspace{-10pt}
 }
 
-% Skill Section %
-\newcommand{\skillsection}[3]{
+% Three Column %
+\newcommand{\threecolumn}[6]{
 \vspace{-8pt}
 \noindent
 \begin{minipage}[t]{0.19\textwidth}
@@ -107,21 +132,7 @@
 \color{heading}
 \fontspec[Path = Garamond/]{AGaramondPro-Regular}\fontsize{14pt}{14pt}\selectfont
 \noindent
-\bf Languages
-
-\vspace{2pt}
-
-\color{primary}
-\fontspec[Path = Garamond/]{AGaramondPro-Regular}\fontsize{12pt}{12pt}\selectfont
-\noindent
-#1
-\end{minipage}
-\noindent
-\begin{minipage}[t]{0.27\textwidth}
-\color{heading}
-\fontspec[Path = Garamond/]{AGaramondPro-Regular}\fontsize{14pt}{14pt}\selectfont
-\noindent
-\bf Systems
+\bf #1
 
 \vspace{2pt}
 
@@ -135,13 +146,27 @@
 \color{heading}
 \fontspec[Path = Garamond/]{AGaramondPro-Regular}\fontsize{14pt}{14pt}\selectfont
 \noindent
-\bf Libraries
+\bf #3
 
 \vspace{2pt}
 
 \color{primary}
 \fontspec[Path = Garamond/]{AGaramondPro-Regular}\fontsize{12pt}{12pt}\selectfont
 \noindent
-#3
+#4
+\end{minipage}
+\noindent
+\begin{minipage}[t]{0.27\textwidth}
+\color{heading}
+\fontspec[Path = Garamond/]{AGaramondPro-Regular}\fontsize{14pt}{14pt}\selectfont
+\noindent
+\bf #5
+
+\vspace{2pt}
+
+\color{primary}
+\fontspec[Path = Garamond/]{AGaramondPro-Regular}\fontsize{12pt}{12pt}\selectfont
+\noindent
+#6
 \end{minipage}
 }
