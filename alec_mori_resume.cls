@@ -79,16 +79,19 @@
 }
 
 % Subheading %
-\newcommand{\subheading}[1]{
+\newcommand{\subheading}[2]{
 
 \vspace{1pt}
 
 \color{light}
+\fontspec[Path = Garamond/]{AGaramondPro-Regular}\fontsize{10pt}{10pt}\selectfont
 \noindent
 \begin{minipage}[t]{0.16\textwidth}
 \noindent
 \hfill
+#1
 \end{minipage}
+\color{light}
 \fontspec[Path = Garamond/]{AGaramondPro-Regular}\fontsize{12pt}{12pt}\selectfont
 \noindent
 \begin{minipage}[t]{0.01\textwidth}
@@ -96,7 +99,7 @@
 \end{minipage}
 \begin{minipage}[t]{0.83\textwidth}
 \noindent
-{\bf #1} 
+{\bf #2} 
 \hfill
 \end{minipage}
 
